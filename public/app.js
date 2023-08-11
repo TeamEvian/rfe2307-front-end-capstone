@@ -16,57 +16,77 @@
   \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_questionsAnswers_QuestionsList_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/questionsAnswers/QuestionsList.jsx */ \"./client/src/components/questionsAnswers/QuestionsList.jsx\");\n/* harmony import */ var _relatedProducts_relatedProducts_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./relatedProducts/relatedProducts.jsx */ \"./client/src/components/relatedProducts/relatedProducts.jsx\");\n\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h1\", {\n    className: \"text-3xl font-bold underline\"\n  }, \"React is running! Great job team! Now go to work.....\"));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n//# sourceURL=webpack://fec/./client/src/components/App.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ProductDetails_index_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProductDetails/index.jsx */ \"./client/src/components/ProductDetails/index.jsx\");\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ProductDetails_index_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), \"React is running! Great job team! Now go to work.....\");\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n//# sourceURL=webpack://fec/./client/src/components/App.jsx?");
 
 /***/ }),
 
-/***/ "./client/src/components/questionsAnswers/Question.jsx":
-/*!*************************************************************!*\
-  !*** ./client/src/components/questionsAnswers/Question.jsx ***!
-  \*************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nvar Question = function Question() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"This is a Question Component\");\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Question);\n\n//# sourceURL=webpack://fec/./client/src/components/questionsAnswers/Question.jsx?");
-
-/***/ }),
-
-/***/ "./client/src/components/questionsAnswers/QuestionsList.jsx":
-/*!******************************************************************!*\
-  !*** ./client/src/components/questionsAnswers/QuestionsList.jsx ***!
-  \******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Question_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Question.jsx */ \"./client/src/components/questionsAnswers/Question.jsx\");\n\n\nvar QuestionsList = function QuestionsList() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"QuestionsList Component\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Question_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Question_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Question_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (QuestionsList);\n\n//# sourceURL=webpack://fec/./client/src/components/questionsAnswers/QuestionsList.jsx?");
-
-/***/ }),
-
-/***/ "./client/src/components/relatedProducts/relatedList.jsx":
-/*!***************************************************************!*\
-  !*** ./client/src/components/relatedProducts/relatedList.jsx ***!
-  \***************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nvar RelatedList = function RelatedList() {\n  return 'Related Placeholder';\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RelatedList);\n\n//# sourceURL=webpack://fec/./client/src/components/relatedProducts/relatedList.jsx?");
-
-/***/ }),
-
-/***/ "./client/src/components/relatedProducts/relatedProducts.jsx":
-/*!*******************************************************************!*\
-  !*** ./client/src/components/relatedProducts/relatedProducts.jsx ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _relatedList_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./relatedList.jsx */ \"./client/src/components/relatedProducts/relatedList.jsx\");\n/* harmony import */ var _yourList_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./yourList.jsx */ \"./client/src/components/relatedProducts/yourList.jsx\");\n\n\n\nvar RelatedProducts = function RelatedProducts() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"mainRelated\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"relatedproducts\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h2\", null, \" RELATED PRODUCTS \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_relatedList_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"youroutfit\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h2\", null, \" YOUR OUTFIT \"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_yourList_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null)));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RelatedProducts);\n\n//# sourceURL=webpack://fec/./client/src/components/relatedProducts/relatedProducts.jsx?");
-
-/***/ }),
-
-/***/ "./client/src/components/relatedProducts/yourList.jsx":
+/***/ "./client/src/components/ProductDetails/AddToCart.jsx":
 /*!************************************************************!*\
-  !*** ./client/src/components/relatedProducts/yourList.jsx ***!
+  !*** ./client/src/components/ProductDetails/AddToCart.jsx ***!
   \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nvar YourList = function YourList() {\n  return 'Your Placeholder';\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (YourList);\n\n//# sourceURL=webpack://fec/./client/src/components/relatedProducts/yourList.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ AddToCart)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction AddToCart() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", null, \"Add To Cart\"));\n}\n\n//# sourceURL=webpack://fec/./client/src/components/ProductDetails/AddToCart.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/ProductDetails/Detail.jsx":
+/*!*********************************************************!*\
+  !*** ./client/src/components/ProductDetails/Detail.jsx ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Detail)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ProductInfo_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProductInfo.jsx */ \"./client/src/components/ProductDetails/ProductInfo.jsx\");\n/* harmony import */ var _AddToCart_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AddToCart.jsx */ \"./client/src/components/ProductDetails/AddToCart.jsx\");\n\n\n\n\nfunction Detail() {\n  //should have 3 containers\n  //product info ,style selector, and add to carts\n  //these div should be in col\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h3\", null, \"Detial\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ProductInfo_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ProductInfo_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_AddToCart_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n}\n\n//# sourceURL=webpack://fec/./client/src/components/ProductDetails/Detail.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/ProductDetails/Header.jsx":
+/*!*********************************************************!*\
+  !*** ./client/src/components/ProductDetails/Header.jsx ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Header)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n// import './index.css';\n\nfunction Header() {\n  // give entire banner a background color;\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"Header\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h1\", null, \"Driplo\"));\n}\n\n//# sourceURL=webpack://fec/./client/src/components/ProductDetails/Header.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/ProductDetails/ImageList.jsx":
+/*!************************************************************!*\
+  !*** ./client/src/components/ProductDetails/ImageList.jsx ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ImageList)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction ImageList() {\n  // give entire banner a background color;\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h3\", null, \"ImageList\"));\n}\n\n//# sourceURL=webpack://fec/./client/src/components/ProductDetails/ImageList.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/ProductDetails/ProductContainer.jsx":
+/*!*******************************************************************!*\
+  !*** ./client/src/components/ProductDetails/ProductContainer.jsx ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ProductContainer)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ImageList_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ImageList.jsx */ \"./client/src/components/ProductDetails/ImageList.jsx\");\n/* harmony import */ var _Detail_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Detail.jsx */ \"./client/src/components/ProductDetails/Detail.jsx\");\n\n\n\nfunction ProductContainer() {\n  //this container has twp child\n  //gallery and detail\n  console.log('where are thou');\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ImageList_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Detail_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n}\n\n//# sourceURL=webpack://fec/./client/src/components/ProductDetails/ProductContainer.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/ProductDetails/ProductInfo.jsx":
+/*!**************************************************************!*\
+  !*** ./client/src/components/ProductDetails/ProductInfo.jsx ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ProductInfo)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction ProductInfo() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h4\", null, \"ProductInfo\"));\n}\n\n//# sourceURL=webpack://fec/./client/src/components/ProductDetails/ProductInfo.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/ProductDetails/index.jsx":
+/*!********************************************************!*\
+  !*** ./client/src/components/ProductDetails/index.jsx ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ProductDetails)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Header_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.jsx */ \"./client/src/components/ProductDetails/Header.jsx\");\n/* harmony import */ var _ProductContainer_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ProductContainer.jsx */ \"./client/src/components/ProductDetails/ProductContainer.jsx\");\n\n\n\nfunction ProductDetails() {\n  console.log('where are thou');\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Header_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ProductContainer_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n}\n\n//# sourceURL=webpack://fec/./client/src/components/ProductDetails/index.jsx?");
 
 /***/ }),
 
