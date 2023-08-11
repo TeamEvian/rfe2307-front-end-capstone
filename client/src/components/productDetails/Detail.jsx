@@ -1,7 +1,7 @@
 import React, { useEffect, useState} from 'react';
 import ProductInfo from './ProductInfo.jsx';
 import StyleSelector from './ProductInfo.jsx';
-import AddToCart from './AddToCart.jsx'
+import AddToCart from './AddToCart.jsx';
 
 export default function Detail () {
   //should have 3 containers

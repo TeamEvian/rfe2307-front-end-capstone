@@ -1,5 +1,5 @@
 import React, { useEffect, useState} from 'react';
-// import './index.css';
+import '../../../../public/styles.css';
 
 export default function Header () {
   // give entire banner a background color;
