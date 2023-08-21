@@ -15,7 +15,8 @@ app.use(bodyParser.json());
 // Ratings and Reviews Routing
 app.get('/reviews/:productID', (req, res) => {
   const id = req.params.productID;
-  axios.get(`${process.env.API_URL}reviews/?product_id=${id}`, {
+  // set count to show all reviews
+  axios.get(`${process.env.API_URL}reviews/?product_id=${id}&count=50`, {
     headers: {Authorization: `${process.env.TOKEN}`}
   })
     .then(response => res.send(response.data.results))
